@@ -1,0 +1,107 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.deeplinkingdhrupalgajjar"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/dhrupalgajjar/Desktop/Project/deeplinking/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/dhrupalgajjar/Desktop/Project/deeplinking/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/dhrupalgajjar/Desktop/Project/deeplinking/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/dhrupalgajjar/Desktop/Project/deeplinking/android/app/src/main/AndroidManifest.xml:4:22-64
+12
+13    <application
+13-->/Users/dhrupalgajjar/Desktop/Project/deeplinking/android/app/src/main/AndroidManifest.xml:6:5-42:19
+14        android:name="com.deeplinkingdhrupalgajjar.MainApplication"
+14-->/Users/dhrupalgajjar/Desktop/Project/deeplinking/android/app/src/main/AndroidManifest.xml:7:7-38
+15        android:allowBackup="false"
+15-->/Users/dhrupalgajjar/Desktop/Project/deeplinking/android/app/src/main/AndroidManifest.xml:11:7-34
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.7.0] /Users/dhrupalgajjar/.gradle/caches/transforms-3/b5a8e99dac667ebea08e9f9757d3b404/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+17        android:icon="@mipmap/ic_launcher"
+17-->/Users/dhrupalgajjar/Desktop/Project/deeplinking/android/app/src/main/AndroidManifest.xml:9:7-41
+18        android:label="@string/app_name"
+18-->/Users/dhrupalgajjar/Desktop/Project/deeplinking/android/app/src/main/AndroidManifest.xml:8:7-39
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/Users/dhrupalgajjar/Desktop/Project/deeplinking/android/app/src/main/AndroidManifest.xml:10:7-52
+20        android:theme="@style/AppTheme" >
+20-->/Users/dhrupalgajjar/Desktop/Project/deeplinking/android/app/src/main/AndroidManifest.xml:12:7-38
+21        <activity
+21-->/Users/dhrupalgajjar/Desktop/Project/deeplinking/android/app/src/main/AndroidManifest.xml:13:7-41:18
+22            android:name="com.deeplinkingdhrupalgajjar.MainActivity"
+22-->/Users/dhrupalgajjar/Desktop/Project/deeplinking/android/app/src/main/AndroidManifest.xml:14:9-37
+23            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+23-->/Users/dhrupalgajjar/Desktop/Project/deeplinking/android/app/src/main/AndroidManifest.xml:16:9-118
+24            android:exported="true"
+24-->/Users/dhrupalgajjar/Desktop/Project/deeplinking/android/app/src/main/AndroidManifest.xml:19:9-32
+25            android:label="@string/app_name"
+25-->/Users/dhrupalgajjar/Desktop/Project/deeplinking/android/app/src/main/AndroidManifest.xml:15:9-41
+26            android:launchMode="singleTask"
+26-->/Users/dhrupalgajjar/Desktop/Project/deeplinking/android/app/src/main/AndroidManifest.xml:17:9-40
+27            android:windowSoftInputMode="adjustResize" >
+27-->/Users/dhrupalgajjar/Desktop/Project/deeplinking/android/app/src/main/AndroidManifest.xml:18:9-51
+28            <intent-filter>
+28-->/Users/dhrupalgajjar/Desktop/Project/deeplinking/android/app/src/main/AndroidManifest.xml:20:9-24:25
+29                <action android:name="android.intent.action.MAIN" />
+29-->/Users/dhrupalgajjar/Desktop/Project/deeplinking/android/app/src/main/AndroidManifest.xml:21:13-65
+29-->/Users/dhrupalgajjar/Desktop/Project/deeplinking/android/app/src/main/AndroidManifest.xml:21:21-62
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/Users/dhrupalgajjar/Desktop/Project/deeplinking/android/app/src/main/AndroidManifest.xml:22:13-73
+31-->/Users/dhrupalgajjar/Desktop/Project/deeplinking/android/app/src/main/AndroidManifest.xml:22:23-70
+32            </intent-filter>
+33            <intent-filter>
+33-->/Users/dhrupalgajjar/Desktop/Project/deeplinking/android/app/src/main/AndroidManifest.xml:26:10-32:21
+34                <action android:name="android.intent.action.VIEW" />
+34-->/Users/dhrupalgajjar/Desktop/Project/deeplinking/android/app/src/main/AndroidManifest.xml:28:9-61
+34-->/Users/dhrupalgajjar/Desktop/Project/deeplinking/android/app/src/main/AndroidManifest.xml:28:17-58
+35
+36                <category android:name="android.intent.category.DEFAULT" />
+36-->/Users/dhrupalgajjar/Desktop/Project/deeplinking/android/app/src/main/AndroidManifest.xml:29:9-68
+36-->/Users/dhrupalgajjar/Desktop/Project/deeplinking/android/app/src/main/AndroidManifest.xml:29:19-65
+37                <category android:name="android.intent.category.BROWSABLE" />
+37-->/Users/dhrupalgajjar/Desktop/Project/deeplinking/android/app/src/main/AndroidManifest.xml:30:9-70
+37-->/Users/dhrupalgajjar/Desktop/Project/deeplinking/android/app/src/main/AndroidManifest.xml:30:19-67
+38
+39                <data android:scheme="peoplesapp" />
+39-->/Users/dhrupalgajjar/Desktop/Project/deeplinking/android/app/src/main/AndroidManifest.xml:31:11-46
+39-->/Users/dhrupalgajjar/Desktop/Project/deeplinking/android/app/src/main/AndroidManifest.xml:31:17-44
+40            </intent-filter>
+41
+42            <!-- <intent-filter> -->
+43            <!-- <action android:name="android.intent.action.VIEW" /> -->
+44            <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+45            <!-- <category android:name="android.intent.category.BROWSABLE" /> -->
+46            <!-- &lt;!&ndash; Accept URI begin with "http://kenji/user" &ndash;&gt; -->
+47            <!-- <data android:scheme="https" android:host="deeplinking.dhrupalgajjar.com" /> -->
+48            <!-- </intent-filter> -->
+49        </activity>
+50
+51        <provider
+51-->[androidx.emoji2:emoji2:1.0.0] /Users/dhrupalgajjar/.gradle/caches/transforms-3/31798a0ea3f25ea98e44c876b4851b08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+52            android:name="androidx.startup.InitializationProvider"
+52-->[androidx.emoji2:emoji2:1.0.0] /Users/dhrupalgajjar/.gradle/caches/transforms-3/31798a0ea3f25ea98e44c876b4851b08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+53            android:authorities="com.deeplinkingdhrupalgajjar.androidx-startup"
+53-->[androidx.emoji2:emoji2:1.0.0] /Users/dhrupalgajjar/.gradle/caches/transforms-3/31798a0ea3f25ea98e44c876b4851b08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+54            android:exported="false" >
+54-->[androidx.emoji2:emoji2:1.0.0] /Users/dhrupalgajjar/.gradle/caches/transforms-3/31798a0ea3f25ea98e44c876b4851b08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+55            <meta-data
+55-->[androidx.emoji2:emoji2:1.0.0] /Users/dhrupalgajjar/.gradle/caches/transforms-3/31798a0ea3f25ea98e44c876b4851b08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+56                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+56-->[androidx.emoji2:emoji2:1.0.0] /Users/dhrupalgajjar/.gradle/caches/transforms-3/31798a0ea3f25ea98e44c876b4851b08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+57                android:value="androidx.startup" />
+57-->[androidx.emoji2:emoji2:1.0.0] /Users/dhrupalgajjar/.gradle/caches/transforms-3/31798a0ea3f25ea98e44c876b4851b08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+58            <meta-data
+58-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/dhrupalgajjar/.gradle/caches/transforms-3/39517e1b011367242185b54afc0b3c9e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+59                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+59-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/dhrupalgajjar/.gradle/caches/transforms-3/39517e1b011367242185b54afc0b3c9e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+60                android:value="androidx.startup" />
+60-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/dhrupalgajjar/.gradle/caches/transforms-3/39517e1b011367242185b54afc0b3c9e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+61        </provider>
+62    </application>
+63
+64</manifest>
